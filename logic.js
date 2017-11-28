@@ -1,4 +1,4 @@
-/*
+
 var theData = [1, 2, 3];
 
 var p = d3.select("body").selectAll("p")
@@ -6,9 +6,11 @@ var p = d3.select("body").selectAll("p")
     .enter()
     .append("p")
     .text("hello");
-    */
+    
 
-/*var theData = [1, 2, 3];
+/* changing the text to match the data array
+
+var theData = [1, 2, 3];
 
 var p = d3.select("body").selectAll("p")
     .data(theData)
